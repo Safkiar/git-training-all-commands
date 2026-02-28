@@ -37,9 +37,12 @@ git checkout -b kiara-trudne-zadanie
 TEST CODE WITHOUT COMMIT 
 
 git stash
-
-
-
+git checkout main
+---editing main
+git add .
+git commit -m "...commit"
+git checkout kiara-trudne-zadanie
+git stash pop
 
 
 *hotfix* after git stash
