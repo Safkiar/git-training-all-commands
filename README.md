@@ -23,3 +23,9 @@ new branch has been added with command:
 4. git checkout -b safir-zadanie
 
 --- safir wdrążył zaawansowany system łapania myszy
+
+
+
+
+
+*hotfix* after git stash
