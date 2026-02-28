@@ -46,3 +46,32 @@ git stash pop
 
 
 *hotfix* after git stash
+
+----
+
+git revert <id_commit> - new commit, revert changes from particular commit in past
+git reset --hard <id_commit> - back in time and delete present
+
+git log --oneline --graph   - commit tree
+
+git checkout -b old-version <id_commit> - copy and create a new branch
+
+git fetch - pull code without merging
+git pull - merge with my current code
+git diff - what changes have been done
+
+to check other`s code: git log --oneline origin/main
+
+git merge - merge two branches, create a new commit, with merged branches
+git rebase - change branch origin , rebase create change ID
+
+git cherry-pick x9y8z7 - take one commit
+
+squash - destroys commits 
+
+git rm --cached - leave file on disk but not on git
+
+git clean -fd - delete folder which git do not follow
+
+git bisect - dev tools for searching bugs in git commits!
+
