@@ -23,3 +23,19 @@ new branch has been added with command:
 4. git checkout -b safir-zadanie
 
 --- safir wdrążył zaawansowany system łapania myszy
+
+
+------------- MERGE CONFLICT
+
+5. git checkout main
+6. git pull
+
+------------- GIT STASH
+
+git checkout -b kiara-trudne-zadanie
+
+TEST CODE WITHOUT COMMIT 
+
+git stash
+
+
